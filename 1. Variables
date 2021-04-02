@@ -4,7 +4,7 @@ Definition: Variables are memory containers which stores a value of specific dat
 //Most used Data types: String, Integer, Decimal, Date
 
 //Let's Get Started
-
+//***********************************************************************************************************************************************************
 //----String Data Type---
 
 String name = 'sri';  // declaring string value to a variable called name 
@@ -25,7 +25,7 @@ System.debug(mname); //assigns null value by default
 2. should end the line with semicolon (;)
 3. In the System.debug function to display the value of a variable remove quotes because it treats quotes as a string 
 4. If you don't assign a value after specifying the data type to a variable - In salesforce it treats and assigns NULL Value */
-
+//********************************************************************************************************************************************************************
 //----Integer Data Type-----
 
 
@@ -45,7 +45,7 @@ Integer Idnum1 = Idnum; //assigning value of Idnum to Idnum1 to check for the up
 System.debug(Idnum1); //results in 30
 
 // Note: Should not assign a decimal value to an integer
-
+//**************************************************************************************************************************************************************************
 //----Decimal Data Type-----
 Decimal num = 30;
 System.debug(num);  //output 30
@@ -57,7 +57,7 @@ Decimal num2 = 33.33;
 System.debug(num2); //output 33.33
 
 //Note: If you are unaware of the variable datatype integer or decimal in that case use Decimal Data Type
-
+//************************************************************************************************************************************************************************
 //---Date Data Type --------
 //syntax: Date t = date.newInstance(year,month,day);
 
@@ -66,3 +66,7 @@ System.debug(a); //displays the date mentioned above
 
 Date c= date.today();
 System.debug(c); // display todays date
+//*************************************************************************************************************************************************************************
+//---Date Time Data Type --------
+datetime d = datetime.newInstance(2021,04,02,19,51,2);
+System.debug(d);
