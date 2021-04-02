@@ -59,3 +59,10 @@ System.debug(num2); //output 33.33
 //Note: If you are unaware of the variable datatype integer or decimal in that case use Decimal Data Type
 
 //---Date Data Type --------
+//syntax: Date t = date.newInstance(year,month,day);
+
+Date a = date.newInstance(2021, 04, 02);
+System.debug(a); //displays the date mentioned above
+
+Date c= date.today();
+System.debug(c); // display todays date
