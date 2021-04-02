@@ -1,0 +1,15 @@
+// Date Data Type
+//syntax: date d = date.newInstance(year,month,day);
+
+date t = date.newInstance(2021,4,2);
+System.debug(t);
+//***************** Special Methods ******************************
+// To Add Years
+System.debug(t.addyears(2));
+// To Add Months
+System.debug(t.addmonths(4));
+// To Add Days
+System.debug(t.adddays(5));
+System.debug(today());
+// To Display Today
+System.debug(Date.today());
