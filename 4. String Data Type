@@ -1,0 +1,42 @@
+//----------------String Data Type-------------------
+string a = 'hello';
+System.debug(a);
+String b = ' ';
+System.debug(b);
+String c = 'JAYA';
+System.debug(c);
+String d = a+b+c;
+System.debug(d);
+String e = 'jaya';
+System.debug(e);
+//------------------------------Special Funtions-----------------------------------
+// To convert to upper case letters
+System.debug(a.touppercase());
+
+//To covert to lower case letters
+System.debug(a.tolowercase());
+
+// To find the length of the string
+System.debug(a.length());
+
+// To find the index number of a letter in a string
+System.debug(a.indexof('e'));
+System.debug(a.indexof('l'));
+System.debug(a.indexof('l'));
+
+// To find the substring based on index values
+System.debug(a.substring(2,4));
+
+//To check for a string contains these letters- o/p: True or False
+System.debug(a.contains('el'));
+System.debug(a.contains('eo'));
+System.debug(a.contains('zz'));
+
+// To check for equal values in different string variables -o/p: True or False Note: Value is case sensitive
+System.debug(c.equals(e));
+
+//To remove some letters from a string
+String role = 'I am a salesforce developer';
+String de = 'salesforce';
+System.debug(role.remove(de));
+
