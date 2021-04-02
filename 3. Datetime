@@ -1,0 +1,9 @@
+//Datetime Data Type
+datetime t = datetime.newInstanceGmt(2012, 04, 02, 20, 12, 3);
+System.debug(t);
+
+// Special Functions
+
+System.debug(t.addminutes(5));
+System.debug(t.addseconds(30));
+System.debug(t);
