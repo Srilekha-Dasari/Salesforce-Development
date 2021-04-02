@@ -13,3 +13,12 @@ System.debug(t.adddays(5));
 System.debug(today());
 // To Display Today
 System.debug(Date.today());
+// To display year
+System.debug(t.year());
+// To display month
+System.debug(t.month());
+// To display day
+System.debug(t.day());
+// To check for leap year
+boolean isleapyear = date.isLeapYear(todaydate.year());
+System.debug(isleapyear);
